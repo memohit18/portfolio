@@ -11,6 +11,7 @@ body{
 	
 #image{
 	padding:12px;
+	width:370px;
 	}
 
 #wrapper{
@@ -23,18 +24,20 @@ body{
 	}
 #header{
 	border:1px solid;
-	margin:auto;}
+	width:auto;
+	margin:0;
+	height:auto;
+	}
 	
 #flex-header{
 	display:flex;
 	flex-direction:row;}
 	
 .flex-header-item{
-	padding-left:10px;
-	font-size:20px;
+	padding:8px;
+	font-size:15px;
 	margin:10px;
-	margin-left:20px;
-    line-height:60px;
+    line-height:65px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
 
 .orange{
