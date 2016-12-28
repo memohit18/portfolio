@@ -11,8 +11,10 @@ body{
 	
 #image{
 	padding:12px;
-	width:370px;
+	width:320px;
 	}
+#img{
+	padding:10px;}
 
 #wrapper{
 	border:1px solid;
@@ -23,7 +25,7 @@ body{
 	background-color:#FFF;
 	}
 #header{
-	border:1px solid;
+	border:0px solid;
 	width:auto;
 	margin:0;
 	height:auto;
@@ -34,8 +36,8 @@ body{
 	flex-direction:row;}
 	
 .flex-header-item{
-	padding:8px;
-	font-size:15px;
+	padding:5px;
+	font-size:14px;
 	margin:10px;
     line-height:65px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
@@ -47,3 +49,19 @@ body{
 .flex-header-item :hover{
 	background-color:#FFF;
 	color:#0CF;}
+	
+#bodypart{
+	border:1px dotted black;
+	margin-top:2px;}
+	
+#title{
+	margin-left:150px;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	color:#999;}
+
+#tit{
+	margin-left:70px;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:20px;
+	color:#999;}
