@@ -15,7 +15,9 @@ body{
 	}
 #img{
 	padding:10px;
-	margin-right:10px;}
+	margin-right:10px;
+	height:400px;
+	width:950px;}
 
 #wrapper{
 	width:970px;
