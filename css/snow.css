@@ -18,6 +18,13 @@ body{
 	margin-right:10px;
 	height:400px;
 	width:950px;}
+#myImage{
+	height:150px;
+	width:200px;
+	margin:10px;
+	margin-left:26px;}
+#rec{
+	margin-left:25px;}
 
 #wrapper{
 	width:970px;
@@ -41,6 +48,9 @@ body{
     line-height:65px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
 
+.flex-header-item-one{
+	margin-left:25px;}
+	
 .orange{
 	background-color:#FFF;
 	color:#F90;}
@@ -51,8 +61,13 @@ body{
 		
 .flex-header-item :hover{
 	background-color:#FFF;
-	color:#F60;}
+	color:#333;}
 	
+.flex-header-item-one :hover{
+	background-color:#FFF;
+	color:#666;}
+	
+
 #bodypart{
 	border:1px dotted grey;
 	margin-top:2px;
@@ -64,8 +79,8 @@ body{
 	font-size:20px;
 	color:#999;}
 #rec{
-	font-size:15px;
-	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#3C3C3C;}
 
 #tit{
