@@ -19,20 +19,99 @@ body{
 	height:400px;
 	width:950px;}
 
-#images{
-	}
+#flex-hi{
+	display:flex;
+	direction:row;}
+	
 
-.myImage{
+.trea{
 	height:150px;
 	width:200px;
-	margin:10px;
-	margin-left:26px;
-	opacity:10.;
-	filter:alpha(opacity=50);}
-.myImage:hover{
-	opacity:0.5;
-	filter:alpha(opacity=100);}
+	margin:20px auto;
+	overflow:hidden;}
 
+.conta{
+	width:200px;
+	height:150px;
+	background-color:transparent;
+	-webkit-transition: -webkit-transform 300ms;}
+
+.trea:hover img{
+	-webkit-transform: scale(1.5,1.5) rotate(10deg);}
+ 
+ .trea:hover .conta{
+	  -webkit-transform:translateY(-205px);}
+
+.tre{
+	height:150px;
+	width:200px;
+	margin:20px auto;
+	overflow:hidden;}
+
+.contan{
+	width:200px;
+	height:150px;
+	background-color:transparent;
+	-webkit-transition: -webkit-transform 300ms;}
+
+.tre:hover img{
+	-webkit-transform: scale(1.5,1.5) rotate(10deg);}
+ 
+ .tre:hover .contan{
+	  -webkit-transform:translateY(-205px);}
+.real{
+	height:150px;
+	width:200px;
+	margin:20px auto;
+	overflow:hidden;}
+
+.cont{
+	width:200px;
+	height:150px;
+	background-color:transparent;
+	-webkit-transition: -webkit-transform 300ms;}
+
+.real:hover img{
+	-webkit-transform: scale(1.5,1.5) rotate(10deg);}
+ 
+ .real:hover .cont{
+	  -webkit-transform:translateY(-205px);}
+  
+ 
+ .main{
+	height:150px;
+	width:200px;
+	margin:20px auto;
+	overflow:hidden;}
+
+ .main:hover img{
+	-webkit-transform: scale(1.5,1.5) rotate(10deg);}
+
+  .main:hover .content{
+	  -webkit-transform:translateY(-205px);}
+  
+img{
+	-webkit-transition: -webkit-transform 300ms;
+	}
+.content{
+	width:200px;
+	height:150px;
+	background-color:transparent;
+	-webkit-transition: -webkit-transform 300ms;}
+
+button{
+	border:hidden;
+	width:100%;
+	height:50px;
+	margin-top:50px;
+	background:transparent;
+	cursor:pointer;
+	color:#666;
+	font:15px "Courier New", Courier, monospace;}
+
+button:hover{
+	opacity:0.5; }
+	
 #rec{
 	margin-left:25px;}
 
