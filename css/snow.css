@@ -8,13 +8,30 @@ body{
      margin:0;
 	 padding:0;	
 	}
-#trap{
+
+
+.imo{margin:10px;
+     width:10px;;}
+
+align{
+	margin:10px;
 	width:10px;}
+
+
+h9{
+	font-size:9px}
+
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:13px;
+	margin-top:10px;
+	padding-left:10px;}
 	
 #image{
 	padding:12px;
-	width:320px;
-	}
+	width:320px;}
+	
 #img{
 	padding:10px;
 	margin-right:10px;
