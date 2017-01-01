@@ -6,7 +6,7 @@ var imageArray=["building.jpg","dog.jpg","cat.jpg","sea.jpg"];
 var imageIndex=0;
 
 function ChangeImage(){
-	img.attribute("src" ,imageArray[imageIndex]);
+	img.attribute("src",imageArray[imageIndex]);
 	imageIndex++;
 	if(imageIndex>=imageArray.length){
 		imageIndex=0;}
