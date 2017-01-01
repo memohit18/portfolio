@@ -185,16 +185,23 @@ button:hover{
 	color:#999;}
 
 
-th,td{
-	font-size:12px;}
-th{
-	height:10px;
-	text-align:left;
-	color:#666;
-	}
-td{
-	text-align:center;}	
+.info-container{
+	display:flex;
+	direction:row;
+	float:left;
+	margin-bottom:20px;}
 
-th img{
-	margin:10px;
-	line-height:10px;}
+.info-icon{
+	float:left;}
+	
+.info-text-container{
+	width:180px;
+	margin-left:10px;
+	}
+
+.info-text-heading{
+	font-weight:800;
+	margin-top:10px;}
+
+.info-text-discription{
+	margin-top:10px;}
