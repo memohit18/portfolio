@@ -184,6 +184,24 @@ button:hover{
 	font-size:20px;
 	color:#999;}
 
+#flex-hye{
+	display:flex;
+	direction:row;
+	margin:20px;
+}
 
+.photo{
+	margin-left:20px;
+	width:150px;
+	margin-right:-20px;
+	
+}
 
+.flex-hye-item{
+	margin-left:-40px;
+	font-size:12px;
+	padding: 10px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+
+}
 
