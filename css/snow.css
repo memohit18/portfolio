@@ -192,7 +192,7 @@ button:hover{
 
 .photo{
 	margin-left:20px;
-	width:150px;
+	width:160px;
 	margin-right:-20px;
 	
 }
@@ -205,3 +205,38 @@ button:hover{
 
 }
 
+#flex-flat{
+	display:flex;
+    flex-direction:row;
+}
+
+.flex-flat-item{
+	color:#585B5C;
+}
+.flex-flat-item a{
+	font-size:25px;
+    color:#585B5C;
+    text-decoration:none;
+    margin-left: 25px;
+}
+
+#fooder{
+	
+	}
+	
+.picture{
+	padding:20px;
+	width:200px;
+	
+}
+
+#flex-fooder{
+	display:flex;
+	flex-direction:row;
+    margin:15px;}
+	
+.flex-fooder-item{
+	padding:60px;
+	font-size:14px;
+    line-height:-40px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
