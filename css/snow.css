@@ -258,5 +258,29 @@ button:hover{
  .tasveer:hover img{
 	opacity:0.5;}
 
-  .tasveer:hover .content{
-	  -webkit-transform:translateY(-205px);}
+
+#flipper{
+	background-color:white;
+	color:grey;
+	margin-left:350px;
+	margin-top:10px;
+}
+
+#imagess{
+}
+
+.flex-imagess{
+	display:flex;
+	flex-direction:row;
+	margin-left:400px;
+	padding:10px;
+}
+
+.flex-imagess-item{
+	padding-right:10px;
+}
+
+.flex-imagess-item:hover img{
+
+	opacity:0.5;
+}
