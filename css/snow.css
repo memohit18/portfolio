@@ -1,6 +1,6 @@
 body{
      background:url(../image/370797.jpg);
-	 background-size:100% 1555px;
+	 background-size:100% 100%;
 	 background-repeat:no-repeat;
 	 	
 	}
@@ -226,7 +226,7 @@ button:hover{
 	
 .picture{
 	padding:20px;
-	width:200px;
+	width:180px;
 	
 }
 
@@ -236,7 +236,27 @@ button:hover{
     margin:15px;}
 	
 .flex-fooder-item{
+	margin-top:-30px;
+	color:#585B5C;
 	padding:60px;
 	font-size:14px;
     line-height:-40px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+
+.torq{
+	display:flex;
+	flex-direction:row;
+	margin:-3px -40px;
+}
+
+.tasveer{
+	overflow:hidden
+	;
+}
+
+
+ .tasveer:hover img{
+	opacity:0.5;}
+
+  .tasveer:hover .content{
+	  -webkit-transform:translateY(-205px);}
