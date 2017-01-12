@@ -18,11 +18,70 @@ body{
 	padding:12px;
 	width:320px;}
 	
-#img{
-	padding:10px;
-	margin-right:10px;
-	height:400px;
-	width:950px;}
+
+#outerbox{
+	margin:10px;
+    width:950px;
+    overflow:hidden;
+}
+
+.sliderbox{
+	position:relative;
+	width:6000px;
+	animation-name:mohit;
+	animation-duration:30s;
+	animation-iteration-count:infinite;
+}
+
+.sliderbox img{
+	float:left;
+}
+
+@keyframes mohit{
+	0%{
+		left:0px;
+	}
+
+	13%{
+		left:0px;
+	}
+
+	17%{
+		left:-992px;
+	}
+	30%{
+		left:-992;
+	}
+	33%{
+		left:-1984px;
+	}
+	46%{
+		left:-1984px;
+	}
+	50%{
+		left:-2976px;
+	}
+    63%{
+    	left:-2976px;
+    }
+    67%{
+    	left:-3968px;
+    }
+    80%{
+    	left:-3968px;
+    }
+    83%{
+    	left:-4960px;
+    }
+    96%{
+    	left:-4960px;
+    }
+    100%{
+    	left:-5950px;
+    }
+
+
+}
 
 	
 #flex-hi{
